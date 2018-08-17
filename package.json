@@ -1,0 +1,41 @@
+{
+  "name": "alr",
+  "version": "0.0.1",
+  "description": "A sandboxed local environment that replicates the live AWS Lambda environment",
+  "main": "index.js",
+  "bin": {
+    "awsrunner": "./index.js",
+    "alr": "./index.js"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joaovescudero/aws-lambda-runner.git"
+  },
+  "keywords": [
+    "aws",
+    "lambda",
+    "runner",
+    "tester",
+    "lambda-tester",
+    "lambda-runner"
+  ],
+  "author": "Joao Escudero <joaovescudero@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joaovescudero/aws-lambda-runner/issues"
+  },
+  "homepage": "https://github.com/joaovescudero/aws-lambda-runner#readme",
+  "devDependencies": {
+    "jest": "^23.5.0"
+  },
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "clear": "^0.1.0",
+    "clui": "^0.3.6",
+    "lodash": "^4.17.10",
+    "touch": "^3.1.0"
+  }
+}
