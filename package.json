@@ -34,8 +34,10 @@
   "dependencies": {
     "chalk": "^2.4.1",
     "clear": "^0.1.0",
+    "cli-progress": "^2.1.0",
     "clui": "^0.3.6",
     "lodash": "^4.17.10",
+    "log-symbols": "^2.2.0",
     "touch": "^3.1.0"
   }
 }
